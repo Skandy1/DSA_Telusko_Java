@@ -6,9 +6,9 @@ public class Searching {
         int target = 6; // change the target value if you feel like
         int result = binarySearch(numbers, target); // change the function if required
         if (result != -1)
-            System.out.println("The target element was found at: " + result); // if the element is present in the array
+            System.out.println("The target element: "+ target + " was found at: " + result); // if the element is present in the array
         else
-            System.out.println("The target element was not found in the given array!"); // if the element is not present in the array
+            System.out.println("The target element: "+target+" was not found in the given array!"); // if the element is not present in the array
 
     }
 
