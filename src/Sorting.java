@@ -1,6 +1,6 @@
 public class Sorting {
     public static void main(String[] args) {
-        int[] numbers = {88, 73, 31, 22, 11, 7, 1}; // change the array elements if required
+        int[] numbers = {88, 73, 30, 22, 11, 7, 1}; // change the array elements if required
         System.out.println("\nBefore Sorting the array elements are \n");
         display(numbers); // displaying the array elements before sorting
         mergeSort(numbers, 0, numbers.length - 1); // calling the sort function to sort the elements
